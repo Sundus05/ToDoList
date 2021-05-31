@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Todoapp {
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  
+
+}
+button{
+  margin-left: 15px;
+  border-radius: 50%;
+  font-size: medium;
+  font-weight: bolder;
+  background-color: darkblue;
+  color: white;
+  border: 1px solid darkblue;
+  cursor: pointer;
+}
+
+.List{
+
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 300px;
+
+}
+
+li{
+  list-style: none;
+  /* padding: 10px; */
+  
+
+}
+
+.Wrapper{
+  padding: 8px;
+  
+}
+
+input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 230px;
+  height: 18px;
+}
+
+input:focus{
+  outline: none;
+}
+
+p{
+  border-radius: 50%;
+  border: 1px solid darkblue;
+  padding: 5px;
+  padding-top: 1px;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  background-color: darkblue;
+}
+p:hover{
+  background-color: red;
+}
